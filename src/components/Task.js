@@ -12,6 +12,7 @@ export default function Task({
         htmlFor="checked"
         aria-label={`archiveTask-${id}`}
         className="checkbox"
+        style={{ background: "#eeeeee" }}
       >
         <input
           type="checkbox"
@@ -30,7 +31,7 @@ export default function Task({
           readOnly={true}
           name="title"
           placeholder="Input title"
-          style={{ background: "red" }}
+          style={{ background: "#eeeeee" }}
         />
       </label>
 
